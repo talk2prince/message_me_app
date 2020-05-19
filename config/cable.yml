@@ -1,4 +1,4 @@
-  development:
+development:
   adapter: async
 
 test:
@@ -6,5 +6,8 @@ test:
 
 production:
   adapter: redis
-  url: redis://redistogo:ba3cade73ace8a0689f021c754201909@pike.redistogo.com:10993/
-  channel_prefix: message_me_app_production
+  url:  redis://redistogo:ba3cade73ace8a0689f021c754201909@pike.redistogo.com:10993/
+  channel_prefix: message-me-app_production
+
+
+#redis://redistogo:ba3cade73ace8a0689f021c754201909@pike.redistogo.com:10993/
